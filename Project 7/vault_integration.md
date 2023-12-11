@@ -6,6 +6,12 @@ Evertime when we shut and restart the server, refresh the vault UI, below needs 
 open 2 CLI for vault server (ec2instance)
 
 1 CLI : vault server -dev -dev-listen-address="0.0.0.0:8200"
+
+
+<img width="475" alt="image" src="https://github.com/SHANMUGAPRIYA30DEVOPS/Terraform-Project/assets/104688378/aac4c594-4cc7-4b34-82be-efcf8673fe71">
+
+
+
 2 CLI : export the vault address from the output of above
 $ export VAULT_ADDR='http://0.0.0.0:8200'
 
