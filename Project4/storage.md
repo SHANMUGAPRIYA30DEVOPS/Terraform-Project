@@ -74,3 +74,24 @@ It will be formatted as swap space
 mkswap /dev/xvda2 
 swapon /dev/xvda2
 swapon -a -> turns all the swap
+
+
+How to create additional swap space (change the partition id from 83 to 82)
+converting partition into swap /dev/xvda2
+-----------------------------------
+swapon --help
+swapon -s
+fdisk /dev/xvda
+m
+l
+m
+t
+partition number (2)
+Hex code : 82
+p
+w
+
+partprobe /dev/xvda2
+mkswap /dev/xvda2
+swapon /dev/xvda2
+
