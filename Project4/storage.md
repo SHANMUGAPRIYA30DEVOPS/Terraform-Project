@@ -19,7 +19,7 @@ n
 
 e - create extended partition
 w - save changes
-partprobe
+partprobe - update partition table
 
 fdisk /dev/xvda
 n
