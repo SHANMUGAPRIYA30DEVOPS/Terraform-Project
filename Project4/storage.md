@@ -7,7 +7,7 @@ n
 p
 default
 default
-+2GiB
++2GiB / +2G
 w
 
 partprobe - to save changes
